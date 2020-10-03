@@ -1,0 +1,6 @@
+SOURCE_URL=https://codeload.github.com/lovasoa/whitebophir/tar.gz/v1.6.3
+SOURCE_SUM=76502fe7658036a56043bb0cc12701ee020b4186861298e093c3dafe16b62850
+SOURCE_SUM_PRG=sha256sum
+SOURCE_FORMAT=tar.xz
+SOURCE_IN_SUBDIR=true
+SOURCE_FILENAME=
