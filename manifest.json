@@ -1,0 +1,50 @@
+{
+    "name": "Roundcube",
+    "id": "roundcube",
+    "packaging_format": 1,
+    "description": {
+        "en": "Open source vector collaborative board",
+        "fr": "Tableau de dessin vectoriel collaboratif open source"
+    },
+    "url": "https://wbo.ophir.dev/",
+    "version": "0.2~ynh1",
+    "license": "free",
+    "maintainer": [{
+        "name": "bwjtkw",
+        "email": "baptiste@wojtkowski.fr"
+    },
+    {
+        "name": "rashan",
+        "email": "tobias.ollive@oiseauroch.fr"
+    },
+    "requirements": {
+        "yunohost": ">= 4.0.0"
+    },
+    "multi_instance": false,
+    "services": [
+        "nginx"
+    ],
+    "arguments": {
+        "install" : [
+            {
+                "name": "domain",
+                "type": "domain",
+                "ask": {
+                    "en": "Choose a domain for WhiteBophir",
+                    "fr": "Choisissez un domaine pour WhiteBophir"
+                },
+                "example": "domain.org"
+            },
+            {
+                "name": "path",
+                "type": "path",
+                "ask": {
+                    "en": "Choose a path for WhiteBophir",
+                    "fr": "Choisissez un chemin pour WhiteBophir"
+                },
+                "example": "/tableau",
+                "default": "/tableau"
+            }
+        ]
+    }
+}
