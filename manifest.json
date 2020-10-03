@@ -44,6 +44,15 @@
                 },
                 "example": "/tableau",
                 "default": "/tableau"
+            },
+            {
+                "name": "is_public",
+                "type": "boolean",
+                "ask": {
+                    "en": "Is it a public application?",
+                    "fr": "Cette application doit-elle être publique ?"
+                },
+                "default": true
             }
         ]
     }
