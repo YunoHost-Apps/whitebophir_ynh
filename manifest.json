@@ -1,6 +1,6 @@
 {
-    "name": "Roundcube",
-    "id": "roundcube",
+    "name": "Whitebophir",
+    "id": "whitebophir",
     "packaging_format": 1,
     "description": {
         "en": "Open source vector collaborative board",
@@ -16,7 +16,7 @@
     {
         "name": "rashan",
         "email": "tobias.ollive@oiseauroch.fr"
-    },
+    }],
     "requirements": {
         "yunohost": ">= 4.0.0"
     },

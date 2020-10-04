@@ -85,9 +85,36 @@ ynh_system_user_create --username=$app --home_dir=$final_path
 
 
 # Load the version of node for an app, and set variables.
+ynh_script_progression --message="Installing application using node..."
+pushd $final_path
 ynh_use_nodejs
 ynh_npm install --production
+popd
 
+#=================================================
+# INTEGRATE SERVICE IN YUNOHOST
+#=================================================
+ynh_script_progression --message="Integrating service in YunoHost..."
+
+yunohost service add $app --description "$app daemon for Whitebofir" --log "/home/yunohost.app/${app}/storage/logs/whitebofir.log"
+
+#=================================================
+# SETUP SYSTEMD
+#=================================================
+ynh_script_progression --message="Configuring a systemd service..."
+
+# Create a dedicated systemd config
+ynh_replace_vars "../conf/systemd.service"
+ynh_add_systemd_config
+
+#=================================================
+# START SYSTEMD SERVICE
+#=================================================
+ynh_script_progression --message="Starting a systemd service..."
+
+
+# Start a systemd service
+ynh_systemd_action --service_name=$app --action="start" --log_path="systemd" --line_match="server started"
 
 
 
