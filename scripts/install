@@ -7,6 +7,7 @@
 #=================================================
 
 source /usr/share/yunohost/helpers
+source _common.sh 
 
 
 #=================================================
@@ -55,7 +56,7 @@ ynh_app_setting_set --app=$app --key=port --value=$port
 #=================================================
 ynh_script_progression --message="Installing dependencies..."
 
-ynh_install_nodejs --nodejs_version=12 # FIXME
+ynh_install_nodejs --nodejs_version=$NODEJS_VERSION
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
@@ -90,6 +91,8 @@ pushd $final_path
 ynh_use_nodejs
 ynh_npm install --production
 popd
+
+chown -R $app:$app $final_path
 
 #=================================================
 # INTEGRATE SERVICE IN YUNOHOST
@@ -128,7 +131,7 @@ ynh_script_progression --message="Configuring SSOwat..."
 if [ $is_public -eq 1 ]
 then
 	# unprotected_uris allows SSO credentials to be passed anyway.
-	ynh_app_setting_set --app=$app --key=unprotected_uris --value="/"
+    ynh_permission_update --permission "main" --add visitors
 fi
 
 #=================================================
@@ -137,10 +140,6 @@ fi
 ynh_script_progression --message="Reloading nginx web server..."
 
 ynh_systemd_action --service_name=nginx --action=reload
-
-
-
-
 
 
 #=================================================
