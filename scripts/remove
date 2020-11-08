@@ -7,7 +7,7 @@
 #=================================================
 
 source /usr/share/yunohost/helpers
-
+source _common.sh
 
 #=================================================
 # LOAD SETTINGS
