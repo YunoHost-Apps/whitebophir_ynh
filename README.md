@@ -8,22 +8,23 @@
 > *This package allows you to install whitebophir quickly and simply on a YunoHost server.  
 If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/install) to learn how to install it.*
 
+
+## License
+
+This package is available under the license [AGPLv3](https://www.gnu.org/licenses/agpl-3.0.html)
+
 ## Overview
-This application implements a whiteboard.
+This application implements a collaborative whiteboard. It is possible to create and use multiple whiteboards and share them with a simple link
 
 **Shipped version:** 1.6.4
 
 ## Screenshots
 
-![](https://user-images.githubusercontent.com/552629/59885574-06e02b80-93bc-11e9-9150-0670a1c5d4f3.png)
+![](https://user-images.githubusercontent.com/552629/59885574-06e02b80-93bc-11e9-9150-0670a1c5d4f3.png =400x400)
 
 ## Demo
 
 * [Official demo](wbo.ophir.dev)
-
-## Configuration
-
-How to configure this app: From an admin panel, a plain file with SSH, or any other way.
 
 ## Documentation
 
@@ -40,9 +41,6 @@ How to configure this app: From an admin panel, a plain file with SSH, or any ot
 
 * Must be installed on a specific domain
 
-## Additional information
-
-* Other info you would like to add about this app.
 
 ## Links
 
