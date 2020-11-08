@@ -60,7 +60,7 @@ ynh_backup --src_path="/etc/systemd/system/$app.service"
 #=================================================
 ynh_print_info --message="Backing up data directory..."
 
-ynh_backup --src_path="$datadir" --is_big
+ynh_backup --src_path="$final_path" --is_big
 
 #=================================================
 # END OF SCRIPT
