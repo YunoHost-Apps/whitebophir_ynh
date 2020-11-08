@@ -36,16 +36,6 @@
                 "example": "domain.org"
             },
             {
-                "name": "path",
-                "type": "path",
-                "ask": {
-                    "en": "Choose a path for WhiteBophir",
-                    "fr": "Choisissez un chemin pour WhiteBophir"
-                },
-                "example": "/tableau",
-                "default": "/tableau"
-            },
-            {
                 "name": "is_public",
                 "type": "boolean",
                 "ask": {

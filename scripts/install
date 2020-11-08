@@ -14,7 +14,7 @@ source _common.sh
 # RETRIEVE ARGUMENTS FROM THE MANIFEST
 #=================================================
 domain=$YNH_APP_ARG_DOMAIN
-path_url=$YNH_APP_ARG_PATH
+path_url="/"
 app=$YNH_APP_INSTANCE_NAME
 is_public=$YNH_APP_ARG_IS_PUBLIC
 
