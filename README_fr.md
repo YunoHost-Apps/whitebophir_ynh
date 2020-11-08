@@ -15,7 +15,7 @@ Cette application implémente un whiteboard collaboratif. Elle permet de créer 
 
 ## Captures d'écran
 
-![](https://user-images.githubusercontent.com/552629/59885574-06e02b80-93bc-11e9-9150-0670a1c5d4f3.png =400x400)
+<td> <img width="300" src="https://user-images.githubusercontent.com/552629/59885574-06e02b80-93bc-11e9-9150-0670a1c5d4f3.png">
 
 ## Démo
 

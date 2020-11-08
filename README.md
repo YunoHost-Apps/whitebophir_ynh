@@ -20,7 +20,7 @@ This application implements a collaborative whiteboard. It is possible to create
 
 ## Screenshots
 
-![](https://user-images.githubusercontent.com/552629/59885574-06e02b80-93bc-11e9-9150-0670a1c5d4f3.png =400x400)
+<td> <img width="300" src="https://user-images.githubusercontent.com/552629/59885574-06e02b80-93bc-11e9-9150-0670a1c5d4f3.png">
 
 ## Demo
 
