@@ -7,14 +7,14 @@
         "fr": "Tableau de dessin vectoriel collaboratif open source"
     },
     "url": "https://wbo.ophir.dev/",
-    "version": "1.6.4~ynh1",
-    "license": "free",
+    "version": "1.9.1~ynh1",
+    "license": "AGPL-3.0-only",
     "maintainer": [{
         "name": "bwjtkw",
         "email": "baptiste@wojtkowski.fr"
     },
     {
-        "name": "rashan",
+        "name": "oiseauroch.",
         "email": "tobias.ollive@oiseauroch.fr"
     }],
     "requirements": {
