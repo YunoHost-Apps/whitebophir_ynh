@@ -54,11 +54,11 @@ Cette application implémente un whiteboard collaboratif. Elle permet de créer 
 
 ## Informations pour les développeurs
 
-Merci de faire vos pull request sur la [branche testing](https://github.com/YunoHost-Apps/whitebophir_ynh/tree/testing).
+Merci de faire vos pull request sur la [branche dev](https://github.com/YunoHost-Apps/whitebophir_ynh/tree/dev).
 
 Pour essayer la branche testing, procédez comme suit.
 ```
-sudo yunohost app install https://github.com/YunoHost-Apps/whitebophir_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/whitebophir_ynh/tree/dev --debug
 ou
-sudo yunohost app upgrade whitebophir -u https://github.com/YunoHost-Apps/whitebophir_ynh/tree/testing --debug
+sudo yunohost app upgrade whitebophir -u https://github.com/YunoHost-Apps/whitebophir_ynh/tree/dev --debug
 ```
