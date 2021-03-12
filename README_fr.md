@@ -41,6 +41,7 @@ Cette application implémente un whiteboard collaboratif. Elle permet de créer 
 ## Limitations
 
 * Ne s'installe que à la racine d'un domaine
+* Pas de support multi-instance
 
 ## Liens
 

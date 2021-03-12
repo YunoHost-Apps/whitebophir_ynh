@@ -39,6 +39,7 @@ This application implements a collaborative whiteboard. It is possible to create
 ## Limitations
 
 * Must be installed on a specific domain
+* No multi-instance support
 
 ## Links
 
