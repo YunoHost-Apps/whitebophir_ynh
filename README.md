@@ -8,7 +8,7 @@
 > *This package allows you to install whitebophir quickly and simply on a YunoHost server.  
 If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/install) to learn how to install it.*
 
-## License
+## License
 
 This package is available under the license [AGPLv3](https://www.gnu.org/licenses/agpl-3.0.html)
 
@@ -27,7 +27,6 @@ This application implements a collaborative whiteboard. It is possible to create
 
 ## Documentation
 
- * Official documentation: Link to the official documentation of this app
  * YunoHost documentation: If specific documentation is needed, feel free to contribute.
 
 ## YunoHost specific features
