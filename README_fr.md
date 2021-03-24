@@ -10,7 +10,7 @@ Si vous n'avez pas YunoHost, consultez [le guide](https://yunohost.org/#/install
 
 ## Vue d'ensemble
 
-Cette application implémente un whiteboard collaboratif. Elle permet de créer et de partager un whiteboard en un seul lien 
+Une application de tableau blanc collaboratif. Elle permet de créer et de partager un tableae en un seul lien. Les tableaux sont dessinés en vectoriel, tout le travail se passe côté client, l'application est donc très légère. 
 
 **Version incluse :** 1.9.1
 
@@ -27,12 +27,6 @@ Cette application implémente un whiteboard collaboratif. Elle permet de créer 
  * Documentation officielle : https://github.com/lovasoa/whitebophir/tree/prod
 
 ## Caractéristiques spécifiques YunoHost
-
-#### Support multi-utilisateur
-
-* L'authentification LDAP et HTTP est-elle prise en charge ?
-* L'application peut-elle être utilisée par plusieurs utilisateurs ?
-
 #### Architectures supportées
 
 * x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/whitebophir%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/whitebophir/)
