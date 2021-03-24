@@ -42,7 +42,8 @@
                     "en": "choose a path",
                     "fr": "Choisissez un chemin pour WhiteBophir"
                 },
-                "example": "wbo"
+                "example": "wbo",
+		"default": "/"
             },
             {
                 "name": "is_public",

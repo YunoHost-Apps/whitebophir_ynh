@@ -12,7 +12,7 @@ Si vous n'avez pas YunoHost, consultez [le guide](https://yunohost.org/#/install
 
 Cette application implémente un whiteboard collaboratif. Elle permet de créer et de partager un whiteboard en un seul lien 
 
-**Version incluse :** 1.6.4
+**Version incluse :** 1.9.1
 
 ## Captures d'écran
 
@@ -37,11 +37,6 @@ Cette application implémente un whiteboard collaboratif. Elle permet de créer 
 
 * x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/whitebophir%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/whitebophir/)
 * ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/whitebophir%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/whitebophir/)
-
-## Limitations
-
-* Ne s'installe que à la racine d'un domaine
-* Pas de support multi-instance
 
 ## Liens
 
