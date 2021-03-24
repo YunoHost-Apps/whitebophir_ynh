@@ -7,7 +7,7 @@
         "fr": "Tableau de dessin vectoriel collaboratif open source"
     },
     "url": "https://wbo.ophir.dev/",
-    "version": "1.9.1~ynh1",
+    "version": "1.9.1~ynh2",
     "license": "AGPL-3.0-only",
     "maintainer": [{
         "name": "bwjtkw",
@@ -20,7 +20,7 @@
     "requirements": {
         "yunohost": ">= 4.0.0"
     },
-    "multi_instance": false,
+    "multi_instance": true,
     "services": [
         "nginx"
     ],
