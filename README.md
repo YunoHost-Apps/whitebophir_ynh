@@ -35,11 +35,6 @@ This application implements a collaborative whiteboard. It is possible to create
 * x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/whitebophir%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/whitebophir/)
 * ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/whitebophir%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/whitebophir/)
 
-## Limitations
-
-* Must be installed on a specific domain
-* No multi-instance support
-
 ## Links
 
  * Report a bug: https://github.com/YunoHost-Apps/whitebophir_ynh/issues

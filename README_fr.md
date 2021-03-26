@@ -32,11 +32,6 @@ Une application de tableau blanc collaboratif. Elle permet de créer et de parta
 * x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/whitebophir%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/whitebophir/)
 * ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/whitebophir%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/whitebophir/)
 
-## Limitations
-
-* Ne s'installe que à la racine d'un domaine
-* Pas de support multi-instance
-
 ## Liens
 
  * Signaler un bug : https://github.com/YunoHost-Apps/whitebophir_ynh/issues
