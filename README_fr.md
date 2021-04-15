@@ -12,7 +12,7 @@ Si vous n'avez pas YunoHost, consultez [le guide](https://yunohost.org/#/install
 
 Une application de tableau blanc collaboratif. Elle permet de créer et de partager un tableae en un seul lien. Les tableaux sont dessinés en vectoriel, tout le travail se passe côté client, l'application est donc très légère. 
 
-**Version incluse :** 1.9.1
+**Version incluse :** 1.10.0
 
 ## Captures d'écran
 
@@ -43,11 +43,11 @@ Une application de tableau blanc collaboratif. Elle permet de créer et de parta
 
 ## Informations pour les développeurs
 
-Merci de faire vos pull request sur la [branche dev](https://github.com/YunoHost-Apps/whitebophir_ynh/tree/dev).
+Merci de faire vos pull request sur la [branche dev](https://github.com/YunoHost-Apps/whitebophir_ynh/tree/testing).
 
 Pour essayer la branche testing, procédez comme suit.
 ```
-sudo yunohost app install https://github.com/YunoHost-Apps/whitebophir_ynh/tree/dev --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/whitebophir_ynh/tree/testing --debug
 ou
-sudo yunohost app upgrade whitebophir -u https://github.com/YunoHost-Apps/whitebophir_ynh/tree/dev --debug
+sudo yunohost app upgrade whitebophir -u https://github.com/YunoHost-Apps/whitebophir_ynh/tree/testing --debug
 ```
