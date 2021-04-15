@@ -18,7 +18,7 @@
         "email": "tobias.ollive@oiseauroch.fr"
     }],
     "requirements": {
-        "yunohost": ">= 4.0.0"
+        "yunohost": ">= 4.1.0"
     },
     "multi_instance": true,
     "services": [
@@ -29,29 +29,21 @@
             {
                 "name": "domain",
                 "type": "domain",
-                "ask": {
-                    "en": "Choose a domain for WhiteBophir",
-                    "fr": "Choisissez un domaine pour WhiteBophir"
-                },
                 "example": "domain.org"
             },
             {
                 "name": "path",
                 "type": "path",
-                "ask": {
-                    "en": "choose a path",
-                    "fr": "Choisissez un chemin pour WhiteBophir"
-                },
                 "example": "wbo",
 		"default": "/"
             },
             {
                 "name": "is_public",
                 "type": "boolean",
-                "ask": {
-                    "en": "Is it a public application?",
-                    "fr": "Cette application doit-elle être publique ?"
-                },
+		"help": {
+		    "en" : "This application will be accessible publiquely. Anyone will be able to create boards.",
+		    "fr" : "Cette application sera accessible publiquement, n'importe qui pourra créer des tableaux"
+		},
                 "default": true
             }
         ]
