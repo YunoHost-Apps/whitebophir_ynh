@@ -15,7 +15,7 @@ This package is available under the license [AGPLv3](https://www.gnu.org/license
 ## Overview
 This application implements a collaborative whiteboard. It is possible to create and use multiple whiteboards and share them with a simple link
 
-**Shipped version:** 1.10.0
+**Shipped version:** 1.14.3
 
 ## Screenshots
 

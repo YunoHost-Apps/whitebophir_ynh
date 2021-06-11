@@ -12,7 +12,7 @@ Si vous n'avez pas YunoHost, consultez [le guide](https://yunohost.org/#/install
 
 Une application de tableau blanc collaboratif. Elle permet de créer et de partager un tableae en un seul lien. Les tableaux sont dessinés en vectoriel, tout le travail se passe côté client, l'application est donc très légère. 
 
-**Version incluse :** 1.10.0
+**Version incluse :** 1.14.3
 
 ## Captures d'écran
 
