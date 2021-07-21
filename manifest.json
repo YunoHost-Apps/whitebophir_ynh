@@ -7,7 +7,12 @@
         "fr": "Tableau de dessin vectoriel collaboratif open source"
     },
     "url": "https://wbo.ophir.dev/",
-    "version": "1.9.1~ynh2",
+    "upstream" : {
+	"license" : "AGPL-3.0-only",
+	"demo" : "wbo.ophir.dev",
+	"code" : "https://github.com/lovasoa/whitebophir"
+	},
+    "version": "1.14.4~ynh1",
     "license": "AGPL-3.0-only",
     "maintainer": [{
         "name": "bwjtkw",
@@ -18,7 +23,7 @@
         "email": "tobias.ollive@oiseauroch.fr"
     }],
     "requirements": {
-        "yunohost": ">= 4.1.0"
+        "yunohost": ">= 4.2.0"
     },
     "multi_instance": true,
     "services": [
