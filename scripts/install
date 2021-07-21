@@ -67,6 +67,14 @@ ynh_script_progression --message="Installing dependencies..."
 ynh_install_nodejs --nodejs_version=$NODEJS_VERSION
 
 #=================================================
+# CREATE DEDICATED USER
+#=================================================
+ynh_script_progression --message="Configuring system user..."
+
+# Create a system user
+ynh_system_user_create --username=$app --home_dir=$final_path
+
+#=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
 ynh_script_progression --message="Setting up source files..."
@@ -75,21 +83,17 @@ ynh_app_setting_set --app=$app --key=final_path --value=$final_path
 # Download, check integrity, uncompress and patch the source from app.src
 ynh_setup_source --dest_dir="$final_path"
 
+chmod 750 "$final_path"
+chmod -R o-rwx "$final_path"
+chown -R $app:www-data "$final_path"
+
 #=================================================
 # NGINX CONFIGURATION
 #=================================================
-ynh_script_progression --message="Configuring nginx web server..."
+ynh_script_progression --message="Configuring NGINX web server..."
 
 # Create a dedicated nginx config
 ynh_add_nginx_config
-
-#=================================================
-# CREATE DEDICATED USER
-#=================================================
-ynh_script_progression --message="Configuring system user..."
-
-# Create a system user
-ynh_system_user_create --username=$app --home_dir=$final_path
 
 #=================================================
 # INSTALL WHITEBOPHIR
@@ -102,18 +106,11 @@ pushd $final_path
 popd
 
 #=================================================
-# SECURE FILES AND DIRECTORIES
-#=================================================
-
-chown -R $app:$app $final_path
-chmod -R o-rwx $final_path
-
-#=================================================
 # INTEGRATE SERVICE IN YUNOHOST
 #=================================================
 ynh_script_progression --message="Integrating service in YunoHost..."
 
-yunohost service add $app --description="vector collaborative board" --log="/home/yunohost.app/${app}/storage/logs/whitebofir.log"
+yunohost service add $app --description="Vector collaborative board" --log="/home/yunohost.app/${app}/storage/logs/whitebofir.log"
 
 #=================================================
 # SETUP SYSTEMD
@@ -121,7 +118,7 @@ yunohost service add $app --description="vector collaborative board" --log="/hom
 ynh_script_progression --message="Configuring a systemd service..."
 
 # Create a dedicated systemd config
-ynh_add_systemd_config 
+ynh_add_systemd_config
 
 #=================================================
 # START SYSTEMD SERVICE
@@ -146,7 +143,7 @@ fi
 #=================================================
 # RELOAD NGINX
 #=================================================
-ynh_script_progression --message="Reloading nginx web server..."
+ynh_script_progression --message="Reloading NGINX web server..."
 
 ynh_systemd_action --service_name=nginx --action=reload
 
