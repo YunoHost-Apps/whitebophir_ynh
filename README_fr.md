@@ -1,49 +1,31 @@
-# Whiteboard pour YunoHost
+# Whitebophir pour YunoHost
 
 [![Niveau d'intégration](https://dash.yunohost.org/integration/whitebophir.svg)](https://dash.yunohost.org/appci/app/whitebophir) ![](https://ci-apps.yunohost.org/ci/badges/whitebophir.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/whitebophir.maintain.svg)  
-[![Installer Whitebophir avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=whitebophir)
+[![Installer Whitebophir avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=whitebophir)
 
-*[Read this readme in english.](./README.md)* 
+*[Read this readme in english.](./README.md)*
+*[Lire ce readme en français.](./README_fr.md)*
 
-> *Ce package vous permet d'installer Whitebophir rapidement et simplement sur un serveur YunoHost.  
-Si vous n'avez pas YunoHost, consultez [le guide](https://yunohost.org/#/install) pour apprendre comment l'installer.*
+> *Ce package vous permet d'installer Whitebophir rapidement et simplement sur un serveur YunoHost.
+Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
 
 ## Vue d'ensemble
 
-Une application de tableau blanc collaboratif. Elle permet de créer et de partager un tableae en un seul lien. Les tableaux sont dessinés en vectoriel, tout le travail se passe côté client, l'application est donc très légère. 
+Tableau de dessin vectoriel collaboratif open source
 
-**Version incluse :** 1.10.0
+**Version incluse :** 1.14.4~ynh1
 
-## Captures d'écran
+**Démo :** wbo.ophir.dev
 
-![](https://user-images.githubusercontent.com/552629/59885574-06e02b80-93bc-11e9-9150-0670a1c5d4f3.png)
+## Documentations et ressources
 
-## Démo
-
-* [Démo officielle](wbo.bophir.dev)
-
-## Documentation
-
- * Documentation officielle : https://github.com/lovasoa/whitebophir/tree/prod
-
-## Caractéristiques spécifiques YunoHost
-#### Architectures supportées
-
-* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/whitebophir%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/whitebophir/)
-* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/whitebophir%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/whitebophir/)
-
-## Liens
-
- * Signaler un bug : https://github.com/YunoHost-Apps/whitebophir_ynh/issues
- * Site de l'application : https://wbo.ophir.dev/
- * Dépôt de l'application principale : https://github.com/lovasoa/whitebophir
- * Site web YunoHost : https://yunohost.org/
-
----
+* Dépôt de code officiel de l'app : https://github.com/lovasoa/whitebophir
+* Documentation YunoHost pour cette app : https://yunohost.org/app_whitebophir
+* Signaler un bug : https://github.com/YunoHost-Apps/whitebophir_ynh/issues
 
 ## Informations pour les développeurs
 
-Merci de faire vos pull request sur la [branche dev](https://github.com/YunoHost-Apps/whitebophir_ynh/tree/testing).
+Merci de faire vos pull request sur la [branche testing](https://github.com/YunoHost-Apps/whitebophir_ynh/tree/testing).
 
 Pour essayer la branche testing, procédez comme suit.
 ```
@@ -51,3 +33,5 @@ sudo yunohost app install https://github.com/YunoHost-Apps/whitebophir_ynh/tree/
 ou
 sudo yunohost app upgrade whitebophir -u https://github.com/YunoHost-Apps/whitebophir_ynh/tree/testing --debug
 ```
+
+**Plus d'infos sur le packaging d'applications :** https://yunohost.org/packaging_apps
