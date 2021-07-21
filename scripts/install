@@ -90,7 +90,7 @@ chown -R $app:www-data "$final_path"
 #=================================================
 # NGINX CONFIGURATION
 #=================================================
-ynh_script_progression --message="Configuring nginx web server..."
+ynh_script_progression --message="Configuring NGINX web server..."
 
 # Create a dedicated nginx config
 ynh_add_nginx_config
@@ -110,7 +110,7 @@ popd
 #=================================================
 ynh_script_progression --message="Integrating service in YunoHost..."
 
-yunohost service add $app --description="vector collaborative board" --log="/home/yunohost.app/${app}/storage/logs/whitebofir.log"
+yunohost service add $app --description="Vector collaborative board" --log="/home/yunohost.app/${app}/storage/logs/whitebofir.log"
 
 #=================================================
 # SETUP SYSTEMD
@@ -143,7 +143,7 @@ fi
 #=================================================
 # RELOAD NGINX
 #=================================================
-ynh_script_progression --message="Reloading nginx web server..."
+ynh_script_progression --message="Reloading NGINX web server..."
 
 ynh_systemd_action --service_name=nginx --action=reload
 

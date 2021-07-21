@@ -112,7 +112,7 @@ ynh_add_systemd_config
 #=================================================
 ynh_script_progression --message="Integrating service in YunoHost..." --weight=1
 
-yunohost service add $app --description="vector collaborative board" --log="/home/yunohost.app/${app}/storage/logs/whitebofir.log"
+yunohost service add $app --description="Vector collaborative board" --log="/home/yunohost.app/${app}/storage/logs/whitebofir.log"
 
 #=================================================
 # START SYSTEMD SERVICE
