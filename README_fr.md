@@ -20,6 +20,8 @@ Tableau de dessin vectoriel collaboratif open source
 **Version incluse :** 1.14.4~ynh2
 
 
+**Démo :** wbo.ophir.dev
+
 ## Captures d'écran
 
 ![Capture d'écran de Whitebophir](./doc/screenshots/screenshots.png)

@@ -19,6 +19,7 @@ Open source vector collaborative board
 
 **Shipped version:** 1.14.4~ynh2
 
+
 **Demo:** wbo.ophir.dev
 
 ## Screenshots
