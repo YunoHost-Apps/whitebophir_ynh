@@ -21,6 +21,11 @@ Open source vector collaborative board
 
 
 **Demo:** wbo.ophir.dev
+
+## Screenshots
+
+![Screenshot of Whitebophir](./doc/screenshots/screenshots.png)
+
 ## Documentation and resources
 
 * Upstream app code repository: <https://github.com/lovasoa/whitebophir>

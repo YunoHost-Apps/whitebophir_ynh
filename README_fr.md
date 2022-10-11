@@ -21,6 +21,11 @@ Tableau de dessin vectoriel collaboratif open source
 
 
 **Démo :** wbo.ophir.dev
+
+## Captures d'écran
+
+![Capture d'écran de Whitebophir](./doc/screenshots/screenshots.png)
+
 ## Documentations et ressources
 
 * Dépôt de code officiel de l'app : <https://github.com/lovasoa/whitebophir>

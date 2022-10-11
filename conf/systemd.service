@@ -4,10 +4,10 @@ After=network.target
 
 [Service]
 Type=simple
-Environment="PORT=__PORT__"
-Environment="__YNH_NODE_LOAD_PATH__"
 User=__APP__
 Group=__APP__
+Environment="PORT=__PORT__"
+Environment="__YNH_NODE_LOAD_PATH__"
 ExecStart=/bin/sh -c ' npm start'
 WorkingDirectory=__FINALPATH__/
 StandardOutput=syslog

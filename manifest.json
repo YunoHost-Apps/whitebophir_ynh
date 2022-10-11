@@ -8,9 +8,9 @@
     },
     "url": "https://wbo.ophir.dev/",
     "upstream" : {
-	"license" : "AGPL-3.0-only",
-	"demo" : "wbo.ophir.dev",
-	"code" : "https://github.com/lovasoa/whitebophir"
+    	"license" : "AGPL-3.0-only",
+    	"demo" : "wbo.ophir.dev",
+    	"code" : "https://github.com/lovasoa/whitebophir"
 	},
     "version": "1.14.4~ynh2",
     "license": "AGPL-3.0-only",
@@ -23,7 +23,7 @@
         "email": "tobias.ollive@oiseauroch.fr"
     }],
     "requirements": {
-        "yunohost": ">= 4.2.0"
+        "yunohost": ">= 11.0.9"
     },
     "multi_instance": true,
     "services": [
@@ -33,22 +33,21 @@
         "install" : [
             {
                 "name": "domain",
-                "type": "domain",
-                "example": "domain.org"
+                "type": "domain"
             },
             {
                 "name": "path",
                 "type": "path",
-                "example": "wbo",
-		"default": "/"
+                "example": "/whitebophir",
+                "default": "/whitebophir"
             },
             {
                 "name": "is_public",
                 "type": "boolean",
-		"help": {
-		    "en" : "This application will be accessible publiquely. Anyone will be able to create boards.",
-		    "fr" : "Cette application sera accessible publiquement, n'importe qui pourra créer des tableaux"
-		},
+		        "help": {
+		            "en" : "This application will be accessible publiquely. Anyone will be able to create boards.",
+		            "fr" : "Cette application sera accessible publiquement, n'importe qui pourra créer des tableaux"
+		        },
                 "default": true
             }
         ]
