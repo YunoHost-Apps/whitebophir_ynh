@@ -17,7 +17,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 Open source vector collaborative board
 
-**Shipped version:** 1.14.4~ynh2
+**Shipped version:** 1.19.0~ynh1
 
 **Demo:** wbo.ophir.dev
 
