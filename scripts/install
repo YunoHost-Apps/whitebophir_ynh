@@ -102,7 +102,7 @@ ynh_script_progression --message="Installing application using node..."
 
 pushd $final_path
 	ynh_use_nodejs
-	ynh_npm install --production
+	ynh_npm install --omit-dev
 popd
 
 #=================================================
