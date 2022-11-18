@@ -41,7 +41,7 @@ ynh_print_info --message="Declaring files to be backed up..."
 # BACKUP THE APP MAIN DIR
 #=================================================
 
-ynh_backup --src_path="$final_path"
+ynh_backup --src_path="$final_path" --is_big
 
 #=================================================
 # BACKUP THE NGINX CONFIGURATION
@@ -54,13 +54,6 @@ ynh_backup --src_path="/etc/nginx/conf.d/$domain.d/$app.conf"
 #=================================================
 
 ynh_backup --src_path="/etc/systemd/system/$app.service"
-
-#=================================================
-# BACKUP THE DATA DIRECTORY
-#=================================================
-ynh_print_info --message="Backing up data directory..."
-
-ynh_backup --src_path="$final_path" --is_big
 
 #=================================================
 # END OF SCRIPT

@@ -97,7 +97,7 @@ ynh_script_progression --message="Upgrading the app..." --weight=5
 
 pushd $final_path
 	ynh_use_nodejs
-	ynh_npm update --production
+	ynh_npm update --omit=dev
 popd
 
 #=================================================
