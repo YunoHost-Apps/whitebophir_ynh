@@ -28,6 +28,7 @@ Open source vector collaborative board
 
 ## Documentation and resources
 
+* Official app website: <https://wbo.ophir.dev/>
 * Upstream app code repository: <https://github.com/lovasoa/whitebophir>
 * Report a bug: <https://github.com/YunoHost-Apps/whitebophir_ynh/issues>
 
