@@ -16,7 +16,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 ## Vue d’ensemble
 
-Tableau de dessin vectoriel collaboratif open source
+Open source vector collaborative board
 
 **Version incluse :** 1.19.0~ynh1
 
@@ -28,6 +28,7 @@ Tableau de dessin vectoriel collaboratif open source
 
 ## Documentations et ressources
 
+* Site officiel de l’app : <https://wbo.ophir.dev/>
 * Dépôt de code officiel de l’app : <https://github.com/lovasoa/whitebophir>
 * Signaler un bug : <https://github.com/YunoHost-Apps/whitebophir_ynh/issues>
 
