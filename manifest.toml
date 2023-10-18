@@ -1,0 +1,53 @@
+packaging_format = 2
+
+id = "whitebophir"
+name = "Whitebophir"
+description.en = "Open source vector collaborative board"
+description.fr = "Tableau de dessin vectoriel collaboratif open source"
+
+version = "1.19.1~ynh1"
+
+maintainers = ["bwjtkw", "oiseauroch"]
+
+[upstream]
+license = "AGPL-3.0-only"
+demo = "wbo.ophir.dev"
+code = "https://github.com/lovasoa/whitebophir"
+website = "https://wbo.ophir.dev/"
+
+[integration]
+yunohost = ">= 11.2"
+architectures = "all"
+multi_instance = true
+ldap = false
+sso = false
+disk = "50M"
+ram.build = "350M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/whitebophir"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+[resources]
+        [resources.sources.main]
+        url = "https://github.com/lovasoa/whitebophir/archive/refs/tags/v1.19.1.tar.gz"
+        sha256 = "a0f3d7441946af4e593b46a56848ecd9e93df178a25a819b3ed38d3821de76cb"
+        autoupdate.strategy = "latest_github_tag"
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.ports]
+
+    [resources.permissions]
+    main.url = "/"
