@@ -38,16 +38,16 @@ ynh_add_nginx_config
 # Create a dedicated systemd config
 ynh_add_systemd_config
 
-yunohost service add $app --description="Vector collaborative board" --log="/home/yunohost.app/${app}/storage/logs/whitebofir.log"
+yunohost service add $app --description="Vector collaborative board" --log="/var/log/$app/$app.log"
 
 #=================================================
 # INSTALL WHITEBOPHIR
 #=================================================
-ynh_script_progression --message="Installing application using node..."
+ynh_script_progression --message="Installing $app..." --weight=5
 
 pushd $install_dir
 	ynh_use_nodejs
-	ynh_npm install --omit-dev
+	ynh_exec_warn_less ynh_exec_as $app env $ynh_node_load_PATH $ynh_npm install --omit=dev
 popd
 
 #=================================================
