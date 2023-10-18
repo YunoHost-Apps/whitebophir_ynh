@@ -5,30 +5,31 @@ It shall NOT be edited by hand.
 
 # Whitebophir pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/whitebophir.svg)](https://dash.yunohost.org/appci/app/whitebophir) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/whitebophir.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/whitebophir.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/whitebophir.svg)](https://dash.yunohost.org/appci/app/whitebophir) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/whitebophir.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/whitebophir.maintain.svg)
+
 [![Installer Whitebophir avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=whitebophir)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer Whitebophir rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer Whitebophir rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
-Tableau de dessin vectoriel collaboratif open source
+Open source vector collaborative board
 
-**Version incluse :** 1.19.0~ynh1
+**Version incluse :** 1.19.1~ynh1
 
 **Démo :** wbo.ophir.dev
 
-## Captures d'écran
+## Captures d’écran
 
-![Capture d'écran de Whitebophir](./doc/screenshots/screenshots.png)
+![Capture d’écran de Whitebophir](./doc/screenshots/screenshots.png)
 
 ## Documentations et ressources
 
-* Dépôt de code officiel de l'app : <https://github.com/lovasoa/whitebophir>
-* Documentation YunoHost pour cette app : <https://yunohost.org/app_whitebophir>
+* Site officiel de l’app : <https://wbo.ophir.dev/>
+* Dépôt de code officiel de l’app : <https://github.com/lovasoa/whitebophir>
 * Signaler un bug : <https://github.com/YunoHost-Apps/whitebophir_ynh/issues>
 
 ## Informations pour les développeurs
@@ -43,4 +44,4 @@ ou
 sudo yunohost app upgrade whitebophir -u https://github.com/YunoHost-Apps/whitebophir_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>

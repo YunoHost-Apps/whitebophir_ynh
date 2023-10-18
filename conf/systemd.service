@@ -9,7 +9,7 @@ Group=__APP__
 Environment="PORT=__PORT__"
 Environment="__YNH_NODE_LOAD_PATH__"
 ExecStart=/bin/sh -c ' npm start'
-WorkingDirectory=__FINALPATH__/
+WorkingDirectory=__INSTALL_DIR__/
 StandardOutput=syslog
 StandardError=syslog
 SyslogIdentifier=__APP__

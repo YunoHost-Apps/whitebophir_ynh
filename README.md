@@ -5,7 +5,8 @@ It shall NOT be edited by hand.
 
 # Whitebophir for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/whitebophir.svg)](https://dash.yunohost.org/appci/app/whitebophir) ![Working status](https://ci-apps.yunohost.org/ci/badges/whitebophir.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/whitebophir.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/whitebophir.svg)](https://dash.yunohost.org/appci/app/whitebophir) ![Working status](https://ci-apps.yunohost.org/ci/badges/whitebophir.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/whitebophir.maintain.svg)
+
 [![Install Whitebophir with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=whitebophir)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -17,7 +18,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 Open source vector collaborative board
 
-**Shipped version:** 1.19.0~ynh1
+**Shipped version:** 1.19.1~ynh1
 
 **Demo:** wbo.ophir.dev
 
@@ -27,8 +28,8 @@ Open source vector collaborative board
 
 ## Documentation and resources
 
+* Official app website: <https://wbo.ophir.dev/>
 * Upstream app code repository: <https://github.com/lovasoa/whitebophir>
-* YunoHost documentation for this app: <https://yunohost.org/app_whitebophir>
 * Report a bug: <https://github.com/YunoHost-Apps/whitebophir_ynh/issues>
 
 ## Developer info

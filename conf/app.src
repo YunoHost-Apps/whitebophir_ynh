@@ -1,6 +1,0 @@
-SOURCE_URL=https://github.com/lovasoa/whitebophir/archive/refs/tags/v1.19.0.tar.gz
-SOURCE_SUM=eec748144b016565e55133824a23cd2478c79544ae08f9a7028e99d2e22adc8e
-SOURCE_SUM_PRG=sha256sum
-SOURCE_FORMAT=tar.gz
-SOURCE_IN_SUBDIR=true
-SOURCE_FILENAME=
