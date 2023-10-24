@@ -18,7 +18,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 Open source vector collaborative board
 
-**Version incluse :** 1.19.1~ynh1
+**Version incluse :** 1.19.2~ynh1
 
 **Démo :** wbo.ophir.dev
 
