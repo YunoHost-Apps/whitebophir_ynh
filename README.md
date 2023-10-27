@@ -18,7 +18,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 Open source vector collaborative board
 
-**Shipped version:** 1.19.2~ynh1
+**Shipped version:** 1.20.0~ynh1
 
 **Demo:** wbo.ophir.dev
 
@@ -30,6 +30,7 @@ Open source vector collaborative board
 
 * Official app website: <https://wbo.ophir.dev/>
 * Upstream app code repository: <https://github.com/lovasoa/whitebophir>
+* YunoHost Store: <https://apps.yunohost.org/app/whitebophir>
 * Report a bug: <https://github.com/YunoHost-Apps/whitebophir_ynh/issues>
 
 ## Developer info
