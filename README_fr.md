@@ -18,7 +18,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 Open source vector collaborative board
 
-**Version incluse :** 1.19.1~ynh1
+**Version incluse :** 1.20.0~ynh1
 
 **Démo :** wbo.ophir.dev
 
@@ -30,6 +30,7 @@ Open source vector collaborative board
 
 * Site officiel de l’app : <https://wbo.ophir.dev/>
 * Dépôt de code officiel de l’app : <https://github.com/lovasoa/whitebophir>
+* YunoHost Store: <https://apps.yunohost.org/app/whitebophir>
 * Signaler un bug : <https://github.com/YunoHost-Apps/whitebophir_ynh/issues>
 
 ## Informations pour les développeurs
