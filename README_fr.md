@@ -5,7 +5,7 @@ Il NE doit PAS être modifié à la main.
 
 # Whitebophir pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/whitebophir.svg)](https://dash.yunohost.org/appci/app/whitebophir) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/whitebophir.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/whitebophir.maintain.svg)
+[![Niveau d’intégration](https://dash.yunohost.org/integration/whitebophir.svg)](https://ci-apps.yunohost.org/ci/apps/whitebophir/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/whitebophir.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/whitebophir.maintain.svg)
 
 [![Installer Whitebophir avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=whitebophir)
 
@@ -18,7 +18,7 @@ Il NE doit PAS être modifié à la main.
 
 Open source vector collaborative board
 
-**Version incluse :** 1.20.0~ynh1
+**Version incluse :** 1.21.0~ynh1
 
 **Démo :** <wbo.ophir.dev>
 
