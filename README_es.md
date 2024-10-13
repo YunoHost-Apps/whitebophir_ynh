@@ -5,7 +5,7 @@ No se debe editar a mano.
 
 # Whitebophir para Yunohost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/whitebophir.svg)](https://dash.yunohost.org/appci/app/whitebophir) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/whitebophir.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/whitebophir.maintain.svg)
+[![Nivel de integración](https://dash.yunohost.org/integration/whitebophir.svg)](https://ci-apps.yunohost.org/ci/apps/whitebophir/) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/whitebophir.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/whitebophir.maintain.svg)
 
 [![Instalar Whitebophir con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=whitebophir)
 
@@ -18,7 +18,7 @@ No se debe editar a mano.
 
 Open source vector collaborative board
 
-**Versión actual:** 1.20.0~ynh1
+**Versión actual:** 1.21.2~ynh1
 
 **Demo:** <wbo.ophir.dev>
 
@@ -35,7 +35,7 @@ Open source vector collaborative board
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/whitebophir_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/whitebophir_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
