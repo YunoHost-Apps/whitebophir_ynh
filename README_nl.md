@@ -5,7 +5,9 @@ Hij mag NIET handmatig aangepast worden.
 
 # Whitebophir voor Yunohost
 
-[![Integratieniveau](https://dash.yunohost.org/integration/whitebophir.svg)](https://ci-apps.yunohost.org/ci/apps/whitebophir/) ![Mate van functioneren](https://ci-apps.yunohost.org/ci/badges/whitebophir.status.svg) ![Onderhoudsstatus](https://ci-apps.yunohost.org/ci/badges/whitebophir.maintain.svg)
+[![Integratieniveau](https://apps.yunohost.org/badge/integration/whitebophir)](https://ci-apps.yunohost.org/ci/apps/whitebophir/)
+![Mate van functioneren](https://apps.yunohost.org/badge/state/whitebophir)
+![Onderhoudsstatus](https://apps.yunohost.org/badge/maintained/whitebophir)
 
 [![Whitebophir met Yunohost installeren](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=whitebophir)
 

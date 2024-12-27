@@ -5,7 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # Whitebophir untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/whitebophir.svg)](https://ci-apps.yunohost.org/ci/apps/whitebophir/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/whitebophir.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/whitebophir.maintain.svg)
+[![Tingkat integrasi](https://apps.yunohost.org/badge/integration/whitebophir)](https://ci-apps.yunohost.org/ci/apps/whitebophir/)
+![Status kerja](https://apps.yunohost.org/badge/state/whitebophir)
+![Status pemeliharaan](https://apps.yunohost.org/badge/maintained/whitebophir)
 
 [![Pasang Whitebophir dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=whitebophir)
 

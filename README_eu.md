@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # Whitebophir YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/whitebophir.svg)](https://ci-apps.yunohost.org/ci/apps/whitebophir/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/whitebophir.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/whitebophir.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/whitebophir)](https://ci-apps.yunohost.org/ci/apps/whitebophir/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/whitebophir)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/whitebophir)
 
 [![Instalatu Whitebophir YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=whitebophir)
 

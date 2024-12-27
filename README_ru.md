@@ -5,7 +5,9 @@
 
 # Whitebophir для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/whitebophir.svg)](https://ci-apps.yunohost.org/ci/apps/whitebophir/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/whitebophir.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/whitebophir.maintain.svg)
+[![Уровень интеграции](https://apps.yunohost.org/badge/integration/whitebophir)](https://ci-apps.yunohost.org/ci/apps/whitebophir/)
+![Состояние работы](https://apps.yunohost.org/badge/state/whitebophir)
+![Состояние сопровождения](https://apps.yunohost.org/badge/maintained/whitebophir)
 
 [![Установите Whitebophir с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=whitebophir)
 

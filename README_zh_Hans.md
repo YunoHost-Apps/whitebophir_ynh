@@ -5,7 +5,9 @@
 
 # YunoHost 上的 Whitebophir
 
-[![集成程度](https://dash.yunohost.org/integration/whitebophir.svg)](https://ci-apps.yunohost.org/ci/apps/whitebophir/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/whitebophir.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/whitebophir.maintain.svg)
+[![集成程度](https://apps.yunohost.org/badge/integration/whitebophir)](https://ci-apps.yunohost.org/ci/apps/whitebophir/)
+![工作状态](https://apps.yunohost.org/badge/state/whitebophir)
+![维护状态](https://apps.yunohost.org/badge/maintained/whitebophir)
 
 [![使用 YunoHost 安装 Whitebophir](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=whitebophir)
 
