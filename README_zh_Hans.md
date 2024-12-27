@@ -5,7 +5,7 @@
 
 # YunoHost 上的 Whitebophir
 
-[![集成程度](https://dash.yunohost.org/integration/whitebophir.svg)](https://dash.yunohost.org/appci/app/whitebophir) ![工作状态](https://ci-apps.yunohost.org/ci/badges/whitebophir.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/whitebophir.maintain.svg)
+[![集成程度](https://dash.yunohost.org/integration/whitebophir.svg)](https://ci-apps.yunohost.org/ci/apps/whitebophir/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/whitebophir.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/whitebophir.maintain.svg)
 
 [![使用 YunoHost 安装 Whitebophir](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=whitebophir)
 
@@ -18,7 +18,7 @@
 
 Open source vector collaborative board
 
-**分发版本：** 1.20.0~ynh1
+**分发版本：** 1.21.2~ynh1
 
 **演示：** <wbo.ophir.dev>
 
