@@ -20,7 +20,8 @@ EZ editatu eskuz.
 
 Open source vector collaborative board
 
-**Paketatutako bertsioa:** 1.21.2~ynh1
+
+**Paketatutako bertsioa:** 1.21.2~ynh2
 
 **Demoa:** <wbo.ophir.dev>
 
