@@ -20,7 +20,8 @@ No se debe editar a mano.
 
 Open source vector collaborative board
 
-**Versión actual:** 1.21.2~ynh1
+
+**Versión actual:** 1.21.2~ynh2
 
 **Demo:** <wbo.ophir.dev>
 

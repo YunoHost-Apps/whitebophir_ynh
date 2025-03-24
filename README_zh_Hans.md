@@ -20,7 +20,8 @@
 
 Open source vector collaborative board
 
-**分发版本：** 1.21.2~ynh1
+
+**分发版本：** 1.21.2~ynh2
 
 **演示：** <wbo.ophir.dev>
 
