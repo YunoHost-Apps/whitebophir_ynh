@@ -1,3 +1,5 @@
+#:schema https://raw.githubusercontent.com/YunoHost/apps/master/schemas/manifest.v2.schema.json
+
 packaging_format = 2
 
 id = "whitebophir"
@@ -5,7 +7,7 @@ name = "Whitebophir"
 description.en = "Open source vector collaborative board"
 description.fr = "Tableau de dessin vectoriel collaboratif open source"
 
-version = "1.21.2~ynh1"
+version = "1.21.2~ynh2"
 
 maintainers = ["bwjtkw", "oiseauroch"]
 
@@ -19,8 +21,11 @@ website = "https://wbo.ophir.dev/"
 yunohost = ">= 11.2"
 architectures = "all"
 multi_instance = true
+
 ldap = false
+
 sso = false
+
 disk = "50M"
 ram.build = "350M"
 ram.runtime = "50M"
@@ -38,16 +43,16 @@ ram.runtime = "50M"
     default = "visitors"
 
 [resources]
-        [resources.sources.main]
-        url = "https://github.com/lovasoa/whitebophir/archive/refs/tags/v1.21.2.tar.gz"
-        sha256 = "6b2a93335ed7299dc6303605f7bc909b9e37610e9a7220b0ab20dafba75ef7ae"
-        autoupdate.strategy = "latest_github_tag"
+    [resources.sources.main]
+    url = "https://github.com/lovasoa/whitebophir/archive/refs/tags/v1.21.2.tar.gz"
+    sha256 = "6b2a93335ed7299dc6303605f7bc909b9e37610e9a7220b0ab20dafba75ef7ae"
+    autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
 
     [resources.install_dir]
 
-    [resources.ports]
-
     [resources.permissions]
     main.url = "/"
+
+    [resources.ports]

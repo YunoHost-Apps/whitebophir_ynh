@@ -20,7 +20,8 @@ Ini TIDAK boleh diedit dengan tangan.
 
 Open source vector collaborative board
 
-**Versi terkirim:** 1.21.2~ynh1
+
+**Versi terkirim:** 1.21.2~ynh2
 
 **Demo:** <wbo.ophir.dev>
 

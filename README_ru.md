@@ -20,7 +20,8 @@
 
 Open source vector collaborative board
 
-**Поставляемая версия:** 1.21.2~ynh1
+
+**Поставляемая версия:** 1.21.2~ynh2
 
 **Демо-версия:** <wbo.ophir.dev>
 
