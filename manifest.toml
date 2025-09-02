@@ -18,7 +18,7 @@ code = "https://github.com/lovasoa/whitebophir"
 website = "https://wbo.ophir.dev/"
 
 [integration]
-yunohost = ">= 11.2"
+yunohost = ">= 12.1.17"
 architectures = "all"
 multi_instance = true
 
@@ -56,3 +56,6 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.ports]
+
+    [resources.nodejs]
+    version = "18"

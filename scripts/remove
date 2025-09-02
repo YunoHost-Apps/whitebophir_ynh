@@ -6,7 +6,7 @@
 # IMPORT GENERIC HELPERS
 #=================================================
 
-source _common.sh
+
 source /usr/share/yunohost/helpers
 
 #=================================================
@@ -25,7 +25,7 @@ fi
 # Remove the dedicated systemd config
 ynh_remove_systemd_config
 
-ynh_remove_nodejs
+#REMOVEME? ynh_remove_nodejs
 
 # Remove the dedicated nginx config
 ynh_remove_nginx_config
