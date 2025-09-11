@@ -1,6 +1,5 @@
 #!/bin/bash
 
-source _common.sh
 source /usr/share/yunohost/helpers
 
 #=================================================
@@ -37,7 +36,6 @@ ynh_script_progression "Upgrading the app..."
 
 pushd $install_dir
 	ynh_hide_warnings ynh_exec_as_app npm update --omit=dev
-
 popd
 
 #=================================================
