@@ -6,7 +6,7 @@
 # IMPORT GENERIC HELPERS
 #=================================================
 
-source _common.sh
+
 source /usr/share/yunohost/helpers
 
 #=================================================
@@ -14,7 +14,7 @@ source /usr/share/yunohost/helpers
 #=================================================
 ynh_script_progression --message="Installing dependencies..."
 
-ynh_install_nodejs --nodejs_version=$NODEJS_VERSION
+#REMOVEME? ynh_install_nodejs --#REMOVEME? nodejs_version=$NODEJS_VERSION
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
@@ -46,7 +46,7 @@ yunohost service add $app --description="Vector collaborative board" --log="/var
 ynh_script_progression --message="Installing $app..." --weight=5
 
 pushd $install_dir
-	ynh_use_nodejs
+	#REMOVEME? ynh_use_nodejs
 	ynh_exec_warn_less ynh_exec_as $app env $ynh_node_load_PATH $ynh_npm install --omit=dev
 popd
 
