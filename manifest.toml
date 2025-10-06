@@ -4,8 +4,8 @@ packaging_format = 2
 
 id = "whitebophir"
 name = "Whitebophir"
-description.en = "Open source vector collaborative board"
-description.fr = "Tableau de dessin vectoriel collaboratif open source"
+description.en = "Vector drawing collaborative board"
+description.fr = "Tableau de dessin vectoriel collaboratif"
 
 version = "1.22.0~ynh1"
 
