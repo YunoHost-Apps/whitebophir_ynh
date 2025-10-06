@@ -8,7 +8,7 @@ It shall NOT be edited by hand.
   Whitebophir, packaged for YunoHost
 </h1>
 
-Open source vector collaborative board
+Vector drawing collaborative board
 
 [![🌐 Official app website](https://img.shields.io/badge/Official_app_website-darkgreen?style=for-the-badge)](https://wbo.ophir.dev/)
 [![App Demo](https://img.shields.io/badge/App_Demo-blue?style=for-the-badge)](wbo.ophir.dev)
