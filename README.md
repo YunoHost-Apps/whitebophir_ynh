@@ -4,20 +4,24 @@ It shall NOT be edited by hand.
 -->
 
 <h1>
-  <img src="https://raw.githubusercontent.com/YunoHost/apps/master/logos/whitebophir.png" width="32px" alt="Logo of Whitebophir">
+  <img src="https://raw.githubusercontent.com/YunoHost/apps/main/logos/whitebophir.png" width="32px" alt="Logo of Whitebophir">
   Whitebophir, packaged for YunoHost
 </h1>
 
-Open source vector collaborative board
+Vector drawing collaborative board
 
 [![🌐 Official app website](https://img.shields.io/badge/Official_app_website-darkgreen?style=for-the-badge)](https://wbo.ophir.dev/)
 [![App Demo](https://img.shields.io/badge/App_Demo-blue?style=for-the-badge)](wbo.ophir.dev)
-![Version: 1.22.0~ynh1](https://img.shields.io/badge/Version-1.22.0~ynh1-rgba(0,150,0,1)?style=for-the-badge)
+[![Version: 1.22.0~ynh2](https://img.shields.io/badge/Version-1.22.0~ynh2-rgb(18,138,11)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/whitebophir/)
 
 <div align="center">
 <a href="https://apps.yunohost.org/app/whitebophir"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_more_info_on_the_appstore.svg"/></a>
 <a href="https://github.com/YunoHost-Apps/whitebophir_ynh/issues"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_report_an_issue.svg"/></a>
 </div>
+
+
+## Screenshots
+![Screenshot of Whitebophir](./doc/screenshots/screenshots.png)
 
 ## 📦 Developer info
 
