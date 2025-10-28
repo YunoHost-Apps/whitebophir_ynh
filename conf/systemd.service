@@ -1,5 +1,5 @@
 [Unit]
-Description=__APP__ daemon
+Description=Whitebophir: vector drawing collaborative board
 After=network.target
 
 [Service]
