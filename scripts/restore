@@ -26,7 +26,7 @@ yunohost service add $app --description="Vector collaborative board" --log="/var
 #=================================================
 ynh_script_progression "Starting $app's systemd service..."
 
-ynh_systemctl --service=$app --action="start" --log_path="systemd"
+ynh_systemctl --service=$app --action="start" --log_path="systemd" --wait_until="event=server.started"
 
 ynh_systemctl --service=nginx --action=reload
 
