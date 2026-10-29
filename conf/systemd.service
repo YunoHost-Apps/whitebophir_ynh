@@ -10,8 +10,8 @@ Environment="PORT=__PORT__"
 Environment="PATH=__PATH_WITH_NODEJS__"
 ExecStart=/bin/sh -c ' npm start'
 WorkingDirectory=__INSTALL_DIR__/
-StandardOutput=syslog
-StandardError=syslog
+StandardOutput=journal
+StandardError=journal
 SyslogIdentifier=__APP__
 Restart=always
 
