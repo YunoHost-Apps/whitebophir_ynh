@@ -7,7 +7,7 @@ name = "Whitebophir"
 description.en = "Vector drawing collaborative board"
 description.fr = "Tableau de dessin vectoriel collaboratif"
 
-version = "1.26.0~ynh1"
+version = "2.18.26~ynh1"
 
 maintainers = ["bwjtkw", "oiseauroch"]
 
@@ -18,7 +18,7 @@ code = "https://github.com/lovasoa/whitebophir"
 website = "https://wbo.ophir.dev/"
 
 [integration]
-yunohost = ">= 12.1.38"
+yunohost = ">= 12.1.39"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
@@ -44,8 +44,8 @@ ram.runtime = "50M"
 
 [resources]
     [resources.sources.main]
-    url = "https://github.com/lovasoa/whitebophir/archive/refs/tags/v1.26.0.tar.gz"
-    sha256 = "fef0251a3a70d4441efc13148369d780de9021cca2d6f94427530bc1216f81ed"
+    url = "https://github.com/lovasoa/whitebophir/archive/refs/tags/v2.18.26.tar.gz"
+    sha256 = "ff08e993c4758710034e1c5c131b143a4d0a2dc7128c4f4e0a925a3ab3ccaa1c"
     autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
@@ -58,4 +58,4 @@ ram.runtime = "50M"
     [resources.ports]
 
     [resources.nodejs]
-    version = "18"
+    version = "26"
