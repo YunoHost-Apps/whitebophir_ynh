@@ -7,7 +7,7 @@ name = "Whitebophir"
 description.en = "Vector drawing collaborative board"
 description.fr = "Tableau de dessin vectoriel collaboratif"
 
-version = "2.18.31~ynh1"
+version = "2.18.35~ynh1"
 
 maintainers = ["bwjtkw", "oiseauroch"]
 
@@ -44,8 +44,8 @@ ram.runtime = "50M"
 
 [resources]
     [resources.sources.main]
-    url = "https://github.com/lovasoa/whitebophir/archive/refs/tags/v2.18.31.tar.gz"
-    sha256 = "4c0e14029c4d32a9d3508062dfd4f8cb997b7f311c370c357776a91f2fbf256f"
+    url = "https://github.com/lovasoa/whitebophir/archive/refs/tags/v2.18.35.tar.gz"
+    sha256 = "b98b301c7604aa51db53586a3c880dfe205a483cb3783cde48f9fa099d6b4c2a"
     autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
